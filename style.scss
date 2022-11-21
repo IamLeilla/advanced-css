@@ -1,0 +1,38 @@
+$colorGray:#c3cfe2;
+$colorWhite:#ffff;
+$colorPurple:#686de0;
+@mixin flexCenter{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+
+
+.borderbox{
+    background-color: $colorWhite;
+    padding:20px;
+    border:20px solid $colorGray;
+    margin:20px;
+    width:100px;
+    
+    
+  }
+
+ header{
+    @include flexCenter();
+    background-color: $colorWhite;
+ } 
+
+  
+
+
+
+footer{
+    @include flexCenter();
+    background-color:$colorPurple;
+    
+}
+
+h2{
+    color:rgb(114, 107, 107);
+}

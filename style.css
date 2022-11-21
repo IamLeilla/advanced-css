@@ -1,0 +1,25 @@
+.borderbox {
+  background-color: white;
+  padding: 20px;
+  border: 20px solid #c3cfe2;
+  margin: 20px;
+  width: 100px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #686de0;
+}
+
+h2 {
+  color: rgb(114, 107, 107);
+}/*# sourceMappingURL=style.css.map */
